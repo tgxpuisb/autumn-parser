@@ -1,0 +1,33 @@
+{
+    "html": "<head><meta charset='utf-8'></head><div class=\"main_board\" style=\"position:absolute\"><image class=\"board_img\" src=\"http://h0.hucdn.com/open/201739/71565110880e1964_750x1334.png\"></image><image class=\"logo_img\" src=\"http://h0.hucdn.com/open/201717/e79c967ced9481cb_135x135.png\"></image><span class=\"user_name\">Hello World!</span></div>",
+    "css": {
+      ".main_board": {
+        "flex-direction": "column",
+        "align-items": "center",
+        "-autumn-width": "100vw",
+        "-autumn-height": "100vw*1334/750",
+        "background-color": "#ff4965"
+      },
+      ".board_img": {
+        "-autumn-width": "100vw",
+        "-autumn-height": "100vw*1334/750",
+        "clips-to-bounds": "1",
+        "content-mode": "scale-aspect-fill",
+        "position": "absolute"
+      },
+      ".logo_img": {
+        "margin-left": "150",
+        "-autumn-width": "100vw*90/750",
+        "-autumn-height": "100vw*90/750",
+        "content-mode": "scale-aspect-fill",
+        "position": "absolute"
+      },
+      ".user_name": {
+        "margin-left": "100",
+        "margin-top": "100vw",
+        "color": "#ff4965",
+        "font-size": "24"
+      }
+    },
+    "js": ""
+  }
