@@ -1,0 +1,28 @@
+{
+    "html": "<head><meta charset='utf-8'></head><div class=main_board><div class=yellow><p>这是一个段落标签</p></div><div class=green></div><div class=blue></div></div>",
+    "css": {
+      ".main_board": {
+        "flex-direction": "row",
+        "-autumn-width": "100vw",
+        "-autumn-height": "100vw*1334/750",
+        "background-color": "#ff4965"
+      },
+      ".green": {
+        "flex": "1 0 auto",
+        "flex-grow": "1",
+        "background-color": "#00FF00",
+        "background-image": "http://h0.hucdn.com/open/201744/8c6d5bdebdbe3647_480x374.png"
+      },
+      ".blue": {
+        "flex": "1 0 auto",
+        "flex-grow": "1",
+        "background-color": "#0000FF"
+      },
+      ".yellow": {
+        "flex": "1 0 auto",
+        "flex-grow": "1",
+        "background-color": "#FFFF00"
+      }
+    },
+    "js": ""
+  }

@@ -1,24 +1,36 @@
 {
-    "html": "<head><meta charset='utf-8'></head><div class=main_board><div class=yellow><span>12122</span></div><div class=green></div><div class=blue></div></div>",
+    "html": "<head><meta charset='utf-8'></head><div class=main_board test=true><image class=img_scale_fill src=http://image.nationalgeographic.com.cn/2017/1012/20171012112121964.jpg></image><div class=block><div class=pos><span>s2s</span></div></div></div>",
     "css": {
       ".main_board": {
-        "flex-direction": "row",
+        "flex-direction": "column",
         "-autumn-width": "100vw",
         "-autumn-height": "100vw*1334/750",
         "background-color": "#ff4965"
       },
-      ".green": {
-        "flex": "1 0 auto",
-        "background-color": "#00FF00",
-        "background-image": "http://h0.hucdn.com/open/201744/8c6d5bdebdbe3647_480x374.png"
+      ".test": {
+        "padding-top":"10"        
       },
-      ".blue": {
-        "flex": "1 0 auto",
-        "background-color": "#0000FF"
+      ".img_scale_fill": {
+        "content-mode": "scale-fill",
+        "height": 100,
+        "width": "200",
+        "clips-to-bounds": "1"
       },
-      ".yellow": {
-        "flex": "1 0 auto",
-        "background-color": "#FFFF00"
+      ".block": {
+        "height": 100,
+        "width": "200",
+          "background-color": "#00FF00",
+          "margin": "20vw",
+          "border-raduis": 20
+      },
+      ".pos": {
+          "position": "absolute",
+          "width": "40",
+          "height": "40",
+          "top": "10",
+          "left": "3",
+          "margin-top": "0",
+          "background-color": "#F0000F" 
       }
     },
     "js": ""
