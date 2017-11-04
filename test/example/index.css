@@ -1,0 +1,45 @@
+.content {
+    width: 750px;
+    height: 970px;
+    background: #FFF000 url(http://h0.hucdn.com/open/201744/1d1476d1e7c66ee1_536x547.png);
+    flex-direction: column;
+}
+.test-box1 {
+    width: 100px;
+    height: 200px;
+    background: #ff00ff;
+    padding: 20px 30px 30px;
+}
+.test-box2 {
+    width: 750px;
+    height: 300px;
+    flex-direction: row;
+}
+.flex-box1 {
+    background: #0ff000;
+    flex:1;
+}
+.flex-box2 {
+    background: #0f0f0f;
+    flex:2;
+}
+.flex-box3 {
+    background: #f00000;
+    flex:3;
+}
+
+.test-img {
+    content-mode: scale-fill;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.pos-box {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 400px;
+    height: 100px;
+    background: #0000ff;
+}

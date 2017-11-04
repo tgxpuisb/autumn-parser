@@ -1,0 +1,27 @@
+.box {
+    overflow: hidden;
+    width: 20px;
+    height: 40px;
+    padding: 20px 30px;
+    flex: 1;
+    border-radius: 40px;
+}
+.box-container {
+    width: 20px;
+    height: 40px;
+    padding: 20px;
+    flex: 1 2;
+    border: solid 1px #FF0;
+}
+.selector .ss {
+    display: block;
+    background: url(//h0.hucdn.com/open/201721/bb0e9c039a1c8114_750x1076.png);
+    padding: 40px 30px 20px 10px;
+    flex: 1 0 auto;
+}
+.selector {
+    width: 20px;
+    height: 40px;
+    margin: 20px 40px;
+    background: #FFF000 url(//h0.hucdn.com/open/201721/bb0e9c039a1c8114_750x1076.png);
+}
