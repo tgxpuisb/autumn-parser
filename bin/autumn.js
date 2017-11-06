@@ -22,6 +22,8 @@ if (argv.i) {
                         console.log(err)
                     }
                 })
+            }).catch(e => {
+                console.log(e)
             })
         })
     } else {

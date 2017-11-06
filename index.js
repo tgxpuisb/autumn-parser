@@ -14,7 +14,7 @@ module.exports = function convert (
     return new Promise((resolve, reject) => {
         cssParser(css).then(cssString => {
             resolve({
-                html: `<head><meta charset='utf-8'></head>${htmlParser.renderToHtml(htmlParser.htmlParser(html))}`,
+                html: `<head><meta charset='utf-8'></head>${htmlParser.renderToHtml(htmlParser.h(html))}`,
                 css: cssString,
                 js: ''
             })

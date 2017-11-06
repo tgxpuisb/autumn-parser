@@ -69,7 +69,6 @@ module.exports = function renderCSS (cssString) {
         })
         .catch(e => {
             reject(e)
-            console.log(e)
         })
     })
 }
