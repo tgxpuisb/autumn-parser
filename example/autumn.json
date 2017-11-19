@@ -1,0 +1,61 @@
+{
+    "html": "<head><meta charset='utf-8'></head><div class='content'><div class='test-box1'><span>111</span></div><div class='test-box2'><div class='flex-box1'></div><div class='flex-box2'></div><div class='flex-box3'></div></div><image src='http://h0.hucdn.com/open/201744/1d1476d1e7c66ee1_536x547.png' alt='true' class='test-img'></image><div class='pos-box'></div></div>",
+    "css": {
+        ".content": {
+            "-autumn-width": "750*100vw/750",
+            "-autumn-height": "200vw",
+            "background-color": "#FFF000",
+            "background-image": "http://h0.hucdn.com/open/201744/1d1476d1e7c66ee1_536x547.png",
+            "flex-direction": "column"
+        },
+        ".test-box1": {
+            "-autumn-width": "100*100vw/750",
+            "-autumn-height": "200*100vw/750",
+            "background-color": "#02F40C14",
+            "-autumn-padding-left": "30*100vw/750",
+            "-autumn-padding-bottom": "30*100vw/750",
+            "-autumn-padding-right": "30*100vw/750",
+            "-autumn-padding-top": "20*100vw/750",
+            "font-size": "20px"
+        },
+        ".test-box2": {
+            "-autumn-width": "750*100vw/750",
+            "-autumn-height": "300*100vw/750",
+            "flex-direction": "row",
+            "color": "#FFFF00"
+        },
+        ".flex-box1": {
+            "background-color": "#0FF000",
+            "flex": "1",
+            "flex-grow": "1"
+        },
+        ".flex-box2": {
+            "background-color": "#0F0F0F",
+            "flex": "2",
+            "flex-grow": "2"
+        },
+        ".flex-box3": {
+            "background-color": "#F00000",
+            "flex": "3",
+            "flex-grow": "3"
+        },
+        ".test-img": {
+            "-autumn-width": "100*100vw/750",
+            "-autumn-height": "100*100vw/750",
+            "overflow": "hidden",
+            "clips-to-bounds": "1",
+            "-autumn-border-radius": "50*100vw/750",
+            "content-mode": "scale-fill"
+        },
+        ".pos-box": {
+            "position": "absolute",
+            "-autumn-left": "40*100vw/750",
+            "-autumn-top": "40*100vw/750",
+            "-autumn-width": "400*100vw/750",
+            "-autumn-height": "100*100vw/750",
+            "background-color": "#0000FF"
+        }
+    },
+    "js": "",
+    "data": {}
+}

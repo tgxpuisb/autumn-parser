@@ -12,7 +12,11 @@ if (argv.i) {
                 css,
                 js
             } = parseTemplate(content.toString())
-            convert(html, css, js).then(result => {
+            convert({
+                html,
+                css,
+                js
+            }).then(result => {
                 let path = argv.o
                 if (!path) {
                     path = argv.i.replace(/\.autumn|\.vue$/, '.json')
@@ -29,21 +33,37 @@ if (argv.i) {
     } else {
         console.error('input file is not exists')
     }
+} else {
+    console.log('you can use "autumn -i xxx.vue" to compile a autumn template')
 }
 
 function parseTemplate (content) {
-    let html = content.substring(
-        content.indexOf('<template') + '<template>'.length,
-        content.indexOf('</template>')
-    )
-    let css = content.substring(
-        content.indexOf('<style>') + '<style>'.length,
-        content.indexOf('</style>')
-    )
-    let js = content.substring(
-        content.indexOf('<script>') + '<script>'.length,
-        content.indexOf('</script>')
-    )
+    let html = '',
+        css = '',
+        js = '',
+        data = '{}'
+
+    if (content.indexOf('<template') > -1) {
+        html = content.substring(
+            content.indexOf('<template') + '<template>'.length,
+            content.indexOf('</template>')
+        )
+    }
+
+    if (content.indexOf('<style>') > -1) {
+        css = content.substring(
+            content.indexOf('<style>') + '<style>'.length,
+            content.indexOf('</style>')
+        )
+    }
+    
+    if (content.indexOf('<script>') > -1) {
+        js = content.substring(
+            content.indexOf('<script>') + '<script>'.length,
+            content.indexOf('</script>')
+        )
+    }
+    
     return {
         html,
         css,

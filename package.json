@@ -1,25 +1,23 @@
 {
-  "name": "autumn-parser",
-  "version": "1.0.0",
-  "description": "1. 选择器只支持单个选择器 2. 支持常用标签,会将常用标签转化成autumn认可的标签,比如:div p span image ul",
+  "name": "@base/autumn-parser",
+  "version": "0.0.4",
+  "description": "a tools help FED write autumn code friendly",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tgxpuisb/autumn-parser.git"
+    "url": "http://git.husor.com/yeb/autumn-parser.git"
   },
-  "author": "",
+  "keywords": [
+    "autumn"
+  ],
+  "author": "lip.fan & yizhi.li",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tgxpuisb/autumn-parser/issues"
-  },
-  "homepage": "https://github.com/tgxpuisb/autumn-parser#readme",
   "dependencies": {
-    "express": "^4.16.2",
     "htmlparser2": "^3.9.2",
-    "postcss": "^6.0.13",
+    "postcss": "^6.0.14",
     "yargs": "^10.0.3"
   },
   "bin": {
