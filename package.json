@@ -1,6 +1,6 @@
 {
   "name": "@base/autumn-parser",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "a tools help FED write autumn code friendly",
   "main": "index.js",
   "scripts": {
@@ -16,11 +16,14 @@
   "author": "lip.fan & yizhi.li",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
     "htmlparser2": "^3.9.2",
     "postcss": "^6.0.14",
     "yargs": "^10.0.3"
   },
   "bin": {
-    "autumn": "./bin/autumn.js"
+    "autumn": "./bin/autumn.js",
+    "autumn-server": "./bin/autumn-server/index.js"
   }
 }

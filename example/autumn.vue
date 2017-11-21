@@ -13,8 +13,7 @@
 
 <style>
 .content {
-    width: 750px;
-    height: 970px;
+    -autumn-width: 100vw;
     -autumn-height: 200vw;
     background: #FFF000 url(http://h0.hucdn.com/open/201744/1d1476d1e7c66ee1_536x547.png);
     flex-direction: column;

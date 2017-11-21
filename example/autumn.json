@@ -2,7 +2,7 @@
     "html": "<head><meta charset='utf-8'></head><div class='content'><div class='test-box1'><span>111</span></div><div class='test-box2'><div class='flex-box1'></div><div class='flex-box2'></div><div class='flex-box3'></div></div><image src='http://h0.hucdn.com/open/201744/1d1476d1e7c66ee1_536x547.png' alt='true' class='test-img'></image><div class='pos-box'></div></div>",
     "css": {
         ".content": {
-            "-autumn-width": "750*100vw/750",
+            "-autumn-width": "100vw",
             "-autumn-height": "200vw",
             "background-color": "#FFF000",
             "background-image": "http://h0.hucdn.com/open/201744/1d1476d1e7c66ee1_536x547.png",
